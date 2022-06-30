@@ -1,0 +1,8 @@
+/bitrix
+/.idea
+/.DS_Store
+/upload
+/local/vendor
+composer.lock
+/sites
+.phpunit.result.cache

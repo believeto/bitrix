@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<phpunit bootstrap="vendor/autoload.php">
-
+<phpunit bootstrap="local/vendor/autoload.php">
+    <testsuite name="ApiCatalog">
+        <directory suffix="Test.php">./local/tests/Api/Catalog</directory>
+    </testsuite>
 </phpunit>
